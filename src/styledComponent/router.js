@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import { BrowserRouter as Router, Switch, Route, Link,
          useParams, NavLink } from 'react-router-dom';
+import {Redirect} from "react-router";
 import Signin from "./Signin/Signin";
 import Signup from "./Signup/Signup";
 import Reset from "./Reset/Reset";
@@ -8,7 +9,7 @@ import './router.css';
 
 export default function App() {
   return (
-    <Router>
+    <Router basename={'/hw18_react_stylization/'}>
       <div>
         <nav className="navigator">
           <span>
@@ -23,13 +24,16 @@ export default function App() {
         </nav>
 
         <Switch>
-          <Route path="/signup">
+          <Route exact path="/">
+            <Redirect to="/signup" />
+          </Route>
+          <Route exact path="/signup">
             <Signup />
           </Route>
-          <Route path="/signin">
+          <Route exact path="/signin">
             <Signin />
           </Route>
-          <Route path="/reset">
+          <Route exact path="/reset">
             <Reset />
           </Route>
         </Switch>
