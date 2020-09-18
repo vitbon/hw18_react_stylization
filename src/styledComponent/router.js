@@ -9,31 +9,31 @@ import './router.css';
 
 export default function App() {
   return (
-    <Router basename={'/hw18_react_stylization/'}>
+    <Router basename={"/hw18_react_stylization/"}>
       <div>
         <nav className="navigator">
           <span>
-            <NavLink className="nav_button" to="/signup">Sign Up</NavLink>
+            <NavLink className="nav_button" to={"/signup"}>Sign Up</NavLink>
           </span>
           <span>
-            <NavLink className="nav_button" to="/signin">Sign In</NavLink>
+            <NavLink className="nav_button" to={"/signin"}>Sign In</NavLink>
           </span>
           <span>
-            <NavLink className="nav_button" to="/reset">Reset</NavLink>
+            <NavLink className="nav_button" to={"/reset"}>Reset</NavLink>
           </span>
         </nav>
 
         <Switch>
-          <Route exact path="/">
-            <Redirect to="/signup" />
+          <Route exact path={"/"}>
+            <Redirect to={"/signup"} />
           </Route>
-          <Route exact path="/signup">
+          <Route exact path={"/signup"}>
             <Signup />
           </Route>
-          <Route exact path="/signin">
+          <Route exact path={"/signin"}>
             <Signin />
           </Route>
-          <Route exact path="/reset">
+          <Route exact path={"/reset"}>
             <Reset />
           </Route>
         </Switch>

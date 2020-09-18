@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/hw18_react_stylization/static/css/main.fceb6c4d.chunk.css",
-    "main.js": "/hw18_react_stylization/static/js/main.dd290cf6.chunk.js",
-    "main.js.map": "/hw18_react_stylization/static/js/main.dd290cf6.chunk.js.map",
+    "main.js": "/hw18_react_stylization/static/js/main.ff098077.chunk.js",
+    "main.js.map": "/hw18_react_stylization/static/js/main.ff098077.chunk.js.map",
     "runtime-main.js": "/hw18_react_stylization/static/js/runtime-main.c28ffe19.js",
     "runtime-main.js.map": "/hw18_react_stylization/static/js/runtime-main.c28ffe19.js.map",
     "static/js/2.2f79b439.chunk.js": "/hw18_react_stylization/static/js/2.2f79b439.chunk.js",
     "static/js/2.2f79b439.chunk.js.map": "/hw18_react_stylization/static/js/2.2f79b439.chunk.js.map",
     "index.html": "/hw18_react_stylization/index.html",
-    "precache-manifest.995bb7b1f367031331c300973027331d.js": "/hw18_react_stylization/precache-manifest.995bb7b1f367031331c300973027331d.js",
+    "precache-manifest.580518e50e71f1a850d14e31c50b3b2c.js": "/hw18_react_stylization/precache-manifest.580518e50e71f1a850d14e31c50b3b2c.js",
     "service-worker.js": "/hw18_react_stylization/service-worker.js",
     "static/css/main.fceb6c4d.chunk.css.map": "/hw18_react_stylization/static/css/main.fceb6c4d.chunk.css.map",
     "static/js/2.2f79b439.chunk.js.LICENSE.txt": "/hw18_react_stylization/static/js/2.2f79b439.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.c28ffe19.js",
     "static/js/2.2f79b439.chunk.js",
     "static/css/main.fceb6c4d.chunk.css",
-    "static/js/main.dd290cf6.chunk.js"
+    "static/js/main.ff098077.chunk.js"
   ]
 }
