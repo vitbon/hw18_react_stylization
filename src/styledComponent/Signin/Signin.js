@@ -110,10 +110,10 @@ export default class Signin extends Component {
             </ButtonStyle>
 
             <DivStyle>
-              <AStyle href="/reset">
+              <AStyle href="/hw18_react_stylization/reset">
                 Forgot password?
               </AStyle>
-              <AStyle href="/signup">
+              <AStyle href="/hw18_react_stylization/signup">
                 Don't have an account? Sign up
               </AStyle>
             </DivStyle>

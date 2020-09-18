@@ -69,10 +69,10 @@ export default class Reset extends Component {
             </ButtonStyle>
 
             <DivStyle>
-              <AStyle href="/signin">
+              <AStyle href="/hw18_react_stylization/signin">
                 Already have an account? <br/>Sign in
               </AStyle>
-              <AStyle href="/signup">
+              <AStyle href="/hw18_react_stylization/signup">
                 Dont't have an account? <br/>Sign up
               </AStyle>
             </DivStyle>

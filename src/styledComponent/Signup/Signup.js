@@ -147,7 +147,7 @@ export default class Signin extends Component {
               SIGN UP
             </ButtonStyle>
             <DivRightStyle>
-              <AStyle href="/signin">
+              <AStyle href="/hw18_react_stylization/signin">
                 Already have an account? Sign in
               </AStyle>
             </DivRightStyle>
